@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout01" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF"
+	android:padding="5dp">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/RelativeLayout01" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="#FFFFFF">
+		  <TextView android:id="@+id/musictitle" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="The love story"
+			android:textStyle="bold"
+			android:textColor="#000000" android:textSize="14sp"
+			android:layout_alignParentLeft="true" />
+			<TextView android:id="@+id/album" android:layout_width="340px"
+			android:layout_height="wrap_content" android:text="nishanth123"
+			android:layout_below="@+id/musictitle"
+			android:textColor="#000000" android:textSize="12sp"
+			/>
+ 			<TextView android:id="@+id/artist" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="nishanth"
+			 android:layout_alignParentRight="true"
+			 android:layout_below="@+id/musictitle"
+			android:textColor="#000000" android:textSize="12sp"/>
+
+	</RelativeLayout>
+</RelativeLayout>
